@@ -1,0 +1,133 @@
+<!-- @format -->
+<!-- Develop a webpage with a shopping list. 
+ Users can add items to the list, mark items as purchased, and clear the list. -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interactive Shopping List</title>
+		<link rel="stylesheet" href="/styles/style.css" />
+	</head>
+	<body>
+		<div class="text"><h1>Interactive Shopping List</h1></div>
+		<div class="slide">
+			<div class="images">
+				<img src="images/meat.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/bakery.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/clothes.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/accesories.jpg" alt="" />
+			</div>
+
+			<div class="images">
+				<img src="images/pharmaceuticals.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/utensils.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/veggies1.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/appliances.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/meat.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/bakery.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/accesories.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/clothes.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/veggies1.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/meat.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/bakery.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/accesories.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/clothes.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/drinks.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/meat.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/bakery.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/clothes.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/accesories.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/drinks.jpg" alt="" />
+			</div>
+
+			<div class="images">
+				<img src="images/meat.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/bakery.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/clothes.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/drinks.jpg" alt="" />
+			</div>
+
+			<div class="images">
+				<img src="images/pharmaceuticals.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/utensils.jpg" alt="" />
+			</div><div class="images">
+				<img src="images/accesories.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/veggies1.jpg" alt="" />
+			</div>
+			<div class="images">
+				<img src="images/appliances.jpg" alt="" />
+			</div>
+		</div>
+		<div id="input">
+			<form id="formBody" action="" method="post">
+				<label id="label" for="input">Shopping List</label>
+				<input id="txt" type="text" />
+				<input id="add" type="submit" value="Add" />
+				<div id="upperView">
+					<h4>My List:</h4>
+					<button id="clear">Clear all</button>
+					<table id="table">
+						<th class="i">
+							items
+						</th>
+						<th class="p">
+							purchased
+						</th>
+            <th>Actions</th>
+					</table>
+					<ul id="shopList"></ul>
+				</div>
+
+				<div></div>
+			</form>
+		</div>
+		<script src="./scripts/index.js"></script>
+	</body>
+</html>
