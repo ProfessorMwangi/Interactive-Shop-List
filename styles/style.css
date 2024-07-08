@@ -16,8 +16,12 @@ body {
 }
 .slide {
 	display: inline-block;
-white-space: nowrap;
+   white-space: nowrap;
 	animation: 30s slide infinite linear;
+}
+.slide:hover{
+  animation-play-state: paused;
+ 
 }
 img {
 	height: 250px;
