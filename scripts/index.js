@@ -11,7 +11,7 @@ let form = document.addEventListener("DOMContentLoaded", () => {
 		handleShopping(e.target.txt.value);
 		formBody.reset();
 	});
-});
+);
 
 clearBtn.addEventListener("click", (e) => {
 	e.preventDefault();
